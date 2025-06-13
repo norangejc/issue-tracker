@@ -6,7 +6,7 @@ function EditIssueButton({ issueId }: { issueId: number }) {
   return (
     <Button>
       <HiMiniPencilSquare />
-      <Link href={`/issues/${issueId}/edit`}>Edit Issue</Link>
+      <Link href={`/issues/edit/${issueId}`}>Edit Issue</Link>
     </Button>
   );
 }
